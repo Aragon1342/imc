@@ -1,4 +1,3 @@
-
 print("Bienvenido a la Hoja de Trabajo 0")
 print("Esta es una calculadora del Índice de masa corporal")
 print("----------------------------------------------------")
