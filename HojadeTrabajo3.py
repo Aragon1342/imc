@@ -12,15 +12,18 @@ else:
 
 #Ejercicio 2
 
-nombre = str(input("¿Cuál es su nombre?: "))
+nombre = str(input("¿Con qué letra incia su nombre?: "))
 
-sexo = str(input("¿Cuál es su sexo? (ingrese 'm' o 'f'):"))
 
-for i in range('a', 'm'):
-    i == 0
-    break
+list = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm']
 
-if i == 0 and sexo == 'm':
+for i in list:
+    if i == nombre:
+        i == 0
+
+sexo = str(input("¿Cuál es su sexo? (ingrese 'm' o 'f'): "))
+
+if i == 0 and sexo == 'f':
     print("Usted pertenece al grupo A")
 else: 
     print("Usted pertenece al grupo B")
